@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.container {
+    margin: auto;
+    padding: 15px;
+    width: 200px;
+    /* height: px; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 243, 243);
+}
+
+button {
+    /* margin: auto;
+    padding: 15px; */
+    width: 200px;
+    height: 30px;
+    background-color: aquamarine;
+    border: none;
+    background-color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    min-height: 200px;
+    z-index: 1;
+   
+}
+.wrapper.active {
+    display: block;
+}
+
+.wrapper::before {
+    position: fixed; /* положение переднего плана */
+    left: -100vw;
+    right: -100vw;
+    top: -100vh;
+    bottom: -100vh;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;  /*---------input освободилась от bgcoolor*/
+}
+.wrapper2 {
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid rgb(250, 250, 250);
+    background-color: rgb(244, 242, 252);
+   
+}
+
+.number {
+    width: 250px;
+    height: 30px;
+    border: none;
+}
+
+textarea {
+    width: 250px;
+    margin: 20px 0;
+    resize: none;
+    border: none;
+}
+
+span {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: RED;
+    cursor: pointer;
+    color: #fff;
+}
