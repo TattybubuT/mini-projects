@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+.container {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  background-color: #3e678b1a;
+  border-radius: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+}
+
+#counter {
+  font-size: 80px;
+  color: #fff;
+  margin: 25px 0;
+  color: rgb(11, 65, 6);
+}
+
+#lower {
+  text-transform: uppercase;
+  margin: 15px;
+  padding: 5px;
+  font-size: 14px;
+  width: 120px;
+  height: 30px;
+  color: rgb(247, 243, 243);
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+}
+#add {
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 14px;
+  width: 120px;
+  height: 30px;
+  color: rgb(247, 243, 243);
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+#lower:hover {
+  background-color: rgb(114, 127, 173);
+}
+#add:hover {
+  background-color: rgb(114, 127, 173);
+}
